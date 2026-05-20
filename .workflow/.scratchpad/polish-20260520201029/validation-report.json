@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-05-20T20:15:00.000Z",
+  "project": "deepseek-bills",
+  "actions": {
+    "readme": "generate",
+    "gitignore": "generate",
+    "cleanup": "5 files"
+  },
+  "results": {
+    "readme_score": 100,
+    "gitignore_score": 100,
+    "files_deleted": 5,
+    "files_failed": 0
+  },
+  "warnings": [],
+  "checks": [
+    {"name": "Has title", "pass": true},
+    {"name": "Has badges", "pass": true},
+    {"name": "Has features section", "pass": true},
+    {"name": "Has quick start", "pass": true},
+    {"name": "Has installation", "pass": true},
+    {"name": "Has usage", "pass": true},
+    {"name": "Has contributing", "pass": true},
+    {"name": "Has license", "pass": true},
+    {"name": "Has table of contents", "pass": true},
+    {"name": "OS patterns", "pass": true},
+    {"name": "Editor patterns", "pass": true},
+    {"name": "Language patterns", "pass": true},
+    {"name": "Env patterns", "pass": true}
+  ]
+}

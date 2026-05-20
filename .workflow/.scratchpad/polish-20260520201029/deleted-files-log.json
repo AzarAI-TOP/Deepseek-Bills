@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-05-20T20:15:00.000Z",
+  "deleted": [
+    {"file": "out/extension.js", "type": "file", "status": "deleted"},
+    {"file": "out/balance.js", "type": "file", "status": "deleted"},
+    {"file": "out/token.js", "type": "file", "status": "deleted"},
+    {"file": "out/test/extension.test.js", "type": "file", "status": "deleted"},
+    {"file": "vsc-extension-quickstart.md", "type": "file", "status": "deleted"}
+  ],
+  "failed": [],
+  "summary": {
+    "total_attempted": 5,
+    "deleted": 5,
+    "failed": 0
+  }
+}

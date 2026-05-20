@@ -1,0 +1,12 @@
+{
+  "readme": "generate",
+  "gitignore": "generate",
+  "files_to_delete": [
+    "out/extension.js",
+    "out/balance.js",
+    "out/token.js",
+    "out/test/extension.test.js",
+    "vsc-extension-quickstart.md"
+  ],
+  "timestamp": "2026-05-20T20:15:00.000Z"
+}

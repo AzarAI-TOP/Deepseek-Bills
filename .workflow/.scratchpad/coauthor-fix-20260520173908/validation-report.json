@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "validated_at": "2026-05-20T17:39:08+08:00",
+  "structural_checks": {
+    "file_exists": true,
+    "is_executable": true,
+    "config_set": true
+  },
+  "test_results": [
+    {
+      "test_name": "Opus with email",
+      "passed": true,
+      "claude_removed": true,
+      "replacement_present": true
+    },
+    {
+      "test_name": "Sonnet with email",
+      "passed": true,
+      "claude_removed": true,
+      "replacement_present": true
+    },
+    {
+      "test_name": "Haiku with email",
+      "passed": true,
+      "claude_removed": true,
+      "replacement_present": true
+    },
+    {
+      "test_name": "Claude Code bare reference",
+      "passed": true,
+      "claude_removed": true,
+      "replacement_present": true
+    },
+    {
+      "test_name": "Claude version only",
+      "passed": true,
+      "claude_removed": true,
+      "replacement_present": true
+    },
+    {
+      "test_name": "No Co-Authored-By (pass through)",
+      "passed": true,
+      "claude_removed": true,
+      "replacement_present": false,
+      "unchanged_for_non_claude": true
+    }
+  ],
+  "passed_count": 6,
+  "failed_count": 0,
+  "summary": "All checks passed. Hook is installed and correctly corrects Claude Co-Authored-By signatures."
+}

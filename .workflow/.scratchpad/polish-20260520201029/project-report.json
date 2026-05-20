@@ -1,0 +1,46 @@
+{
+  "project_name": "deepseek-bills",
+  "detected_languages": [
+    {
+      "language": "typescript",
+      "evidence": ["package.json", "tsconfig.json", "src/extension.ts", "src/balance.ts", "src/token.ts"]
+    }
+  ],
+  "has_git": true,
+  "readme": {
+    "exists": true,
+    "score": 10,
+    "issues": [
+      "Entirely template/placeholder content",
+      "No real project description",
+      "No badges",
+      "No table of contents",
+      "No quick start commands",
+      "No real installation instructions",
+      "No usage examples",
+      "Contains 'After writing up a brief description' template text"
+    ]
+  },
+  "gitignore": {
+    "exists": true,
+    "score": 25,
+    "issues": [
+      "Missing OS patterns (.DS_Store, Thumbs.db, Desktop.ini)",
+      "Missing editor patterns (.vscode/, .idea/)",
+      "Missing Node.js patterns (npm-debug.log*, .eslintcache, coverage/)",
+      "Missing TypeScript-specific patterns",
+      "Missing environment file patterns (.env, .env.local)",
+      "Missing log patterns (*.log, logs/)"
+    ]
+  },
+  "useless_files": {
+    "**/out/**": ["out/extension.js", "out/balance.js", "out/token.js", "out/test/extension.test.js"],
+    "**/vsc-extension-quickstart.md": ["vsc-extension-quickstart.md"],
+    "**/.vscode-test.mjs": [".vscode-test.mjs"]
+  },
+  "ai_traces": {},
+  "has_license": false,
+  "has_contributing": false,
+  "has_changelog": true,
+  "total_files": 23
+}

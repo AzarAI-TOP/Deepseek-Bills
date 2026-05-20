@@ -1,0 +1,7 @@
+{
+  "installed_at": "2026-05-20T17:39:08+08:00",
+  "hooks_dir": ".git/hooks",
+  "hook_path": ".git/hooks/commit-msg",
+  "existing_hook_handled": false,
+  "repo": "/home/azarai/Workspace/deepseek-bills"
+}
