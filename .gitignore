@@ -47,6 +47,11 @@ dist/
 *.vsix
 .vscode-test/
 
+# === AI tooling traces ===
+.workflow/
+docs/
+CLAUDE.md
+
 # === Logs ===
 *.log
 logs/
