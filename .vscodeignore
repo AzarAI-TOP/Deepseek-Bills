@@ -1,14 +1,23 @@
+# Editor & test infrastructure
 .vscode/**
 .vscode-test/**
+**/.vscode-test.*
+
+# Source files (not needed at runtime)
 src/**
+**/*.map
+**/*.ts
+
+# Build & lint config
+**/eslint.config.mjs
+**/tsconfig.json
+
+# Repo clutter
 .gitignore
 .yarnrc
 vsc-extension-quickstart.md
-**/tsconfig.json
-**/eslint.config.mjs
-**/*.map
-**/*.ts
-**/.vscode-test.*
+
+# AI tooling traces
 .workflow/**
-docs/**
 CLAUDE.md
+docs/**
