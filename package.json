@@ -2,6 +2,7 @@
   "name": "deepseek-bills",
   "displayName": "DeepSeek Bills",
   "description": "DeepSeek API balance indicator in your status bar",
+  "publisher": "AzarAI",
   "version": "0.0.1",
   "icon": "assets/deepseek-icon.png",
   "engines": {
@@ -43,5 +44,9 @@
     "typescript": "^5.9.3",
     "@vscode/test-cli": "^0.0.12",
     "@vscode/test-electron": "^2.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AzarAI-TOP/deepseek-bills"
   }
 }
