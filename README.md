@@ -27,6 +27,10 @@
 - **Multi-Currency Support**: Aggregates balances across all currencies (CNY, USD, etc.)
 - **Error Handling**: Clear visual feedback for invalid tokens, network errors, and missing configuration
 
+## Screenshot
+
+![Usage example](assets/usage_example.png)
+
 ## Quick Start
 
 ```bash
